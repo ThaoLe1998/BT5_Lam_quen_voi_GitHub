@@ -1,0 +1,596 @@
+<!doctype html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>About</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Customizer -->
+    <link rel="stylesheet" href="https://mdbootstrap.com/live/_MDB/css/customizer.min.css">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/timeline.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/socialbuttons.css" rel="stylesheet">
+    <link rel="icon" href="img/dog.ico">
+    <style>
+        .section{
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #fff;
+    }
+
+    .panel-default {
+        background-color: transparent !important;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    .modal-body {
+   padding: 0px;
+    padding-left: 20px;
+}
+
+   .hidden-sn{
+  background-image:url(https://amazingpict.com/wp-content/uploads/2015/06/robot-eye-background-image.jpg) !important;
+  background-repeat: repeat;
+  
+  
+}
+    </style>
+</head>
+<script>
+        function includeHTML() {
+          var z, i, elmnt, file, xhttp;
+          /*loop through a collection of all HTML elements:*/
+          z = document.getElementsByTagName("*");
+          for (i = 0; i < z.length; i++) {
+            elmnt = z[i];
+            /*search for elements with a certain atrribute:*/
+            file = elmnt.getAttribute("w3-include-html");
+            if (file) {
+              /*make an HTTP request using the attribute value as the file name:*/
+              xhttp = new XMLHttpRequest();
+              xhttp.onreadystatechange = function() {
+                if (this.readyState == 4) {
+                  if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+                  if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                  /*remove the attribute, and call this function once more:*/
+                  elmnt.removeAttribute("w3-include-html");
+                  includeHTML();
+                }
+              }      
+              xhttp.open("GET", file, true);
+              xhttp.send();
+              /*exit the function:*/
+              return;
+            }
+          }
+        };
+        </script>
+
+<body class="hidden-sn animated deep-purple-skin">
+    <div>
+        <!-- Header -->
+        <header>
+
+            <!-- Static navbar -->
+            <nav class="navbar navbar-inverse navbar-fixed-top" style="font-family: 'Montserrat Alternates', sans-serif; font-size: 16px">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                            aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html" style="font-size: 35px;margin-top: 10px;">Thảo Lê</a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right nav-tabs">
+                            <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="result.html">Result</a></li>
+                            <li><a href="https://lethao16130583.azurewebsites.net/" target="_blank">Web</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                    aria-expanded="false"><i class="fa fa-book"></i> Labs<span class="caret"></span></a>
+                                <ul class="sub-menu">
+                                    <li><a href="lab1.html">Lab 1</a></li>
+                                    <li><a href="lab2.html">Lab 2</a></li>
+                                    <li><a href="lab3.html">Lab 3</a></li>
+                                    <li><a href="lab4.html">Lab 4</a></li>
+        
+                                </ul>
+                            </li>
+        
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+                <!--/.container-fluid -->
+            </nav>
+            
+        </header>
+
+        <main id="mainContainer">
+            <div class="container">
+                <!-- Products -->
+                <section class="section">
+                    <h1 style="text-align: center;padding-top: 10px;">PERSONAL INFORMATION </h1>
+                    <div class="row">
+                        <div class="modal-header">
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                                <div class="panel panel-default" style="border: none;">
+
+                                    <div class="panel-body">
+                                        <br>
+                                        <img src="img/thao.png" class="img-responsive1" alt="ThaoLe">
+                                        <h2>Lê Thị Bé Thảo</h2>
+
+                                        <div class="social-networks" id="socialbutton">
+                                            <a href="#" class="twitter" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a>
+                                            <a href="https://www.facebook.com/profile.php?id=100006924649316" target="_blank" class="facebook"
+                                                data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a>
+                                            <a href="#" class="google" data-toggle="tooltip" title="Google"><i class="fa fa-google-plus"
+                                                    style="padding-left: 6px;"></i></a> <a href="https://hci2018group10.azurewebsites.net"
+                                                class="canhan" target="_blank" data-toggle="tooltip" title="Trang web nhóm"><i
+                                                    class="fa fa-user-circle" style="padding-left: 8px;"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-xs-7 col-sm-7col-md-7 col-lg-6">
+                                <div class="panel panel-default" style="border: none;">
+
+                                    <div class="panel-body">
+                                        <h4 class="td">SKILLS</h4>
+                                        <div class="pro progress-striped active">
+                                            <div class="progress-bar progress-bar-success" role="progressbar"
+                                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                                <span class="sr-only">90% Complete (success)</span> HTML
+                                            </div>
+                                        </div>
+                                        <div class="pro progress-striped active">
+                                            <div class="progress-bar progress-bar-info" role="progressbar"
+                                                aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                                <span class="sr-only">80% Complete</span> CSS
+                                            </div>
+                                        </div>
+                                        <div class="pro progress-striped active">
+                                            <div class="progress-bar progress-bar-danger" role="progressbar"
+                                                aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                                <span class="sr-only">60% Complete (warning)</span> JAVASCRIPT
+                                            </div>
+                                        </div>
+                                        <div class="pro progress-striped active">
+                                            <div class="progress-bar progress-bar-success" role="progressbar"
+                                                aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 87%">
+                                                <span class="sr-only">87% Complete (danger)</span> BOOTSTRAP
+                                            </div>
+                                        </div>
+
+                                        <div class="pro progress-striped active">
+                                            <div class="progress-bar progress-bar-info" role="progressbar"
+                                                aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 55%">
+                                                <span class="sr-only">55% Complete (danger)</span>PHOTOSHOP
+                                            </div>
+                                        </div>
+
+                                        <div class="pro progress-striped active">
+                                                <div class="progress-bar progress-bar-danger" role="progressbar"
+                                                    aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                                                    <span class="sr-only">75% Complete (danger)</span>SQL
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="modal-body">
+                        <h3 class="text-center" style="font-size: 25px;">ABOUT</h3>
+                        <div class="about">
+                           
+                           <div class="row">
+                               <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                    <p>
+                                            <i class="fa fa-briefcase fa-fw w3-margin-right w3-xlarge" style="color: whitesmoke; margin-right: 14px"></i>IT
+                                            Student
+                                            (Junior)
+                                        </p>
+                                        <p>
+                                            <i class="fa fa-birthday-cake fa-fw w3-margin-right w3-xlarge" style="color: whitesmoke; margin-right: 14px"></i>JuLy
+                                            28th
+                                        </p>
+                                        <p>
+                                            <i class="fa fa-id-card fa-fw w3-margin-right w3-xlarge" style="color: whitesmoke; margin-right: 14px"></i>16130583
+                                        </p>
+                               </div>
+
+                               <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                    <p>
+                                            <i class="fa fa-building fa-fw w3-margin-right w3-xlarge" style="color: whitesmoke; margin-right: 14px"></i>Nong
+                                            Lam
+                                            University
+                                        </p>
+                                        <p>
+                                            <i class="fa fa-envelope fa-fw w3-margin-right w3-xlarge" style="color: whitesmoke; margin-right: 14px"></i>16130583@st.hcmuaf.edu.vn
+                                        </p>
+                                        <p>
+                                            <i class="fa fa-thumbs-up fa-fw w3-margin-right w3-xlarge" style="color: whitesmoke; margin-right: 14px"></i>Listen
+                                            to
+                                            music, watching movie and eating
+                                        </p>
+                                </div>
+                           </div>
+                          
+                           
+                        </div><hr>
+                        <h3 class="text-center" style="font-size: 25px;">INTERESTS</h3>
+                        <div class="about">
+                            
+                            
+                                
+                                <div class="row">
+                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                            <p><i class="fa fa-headphones" style="margin-right: 14px;"></i>Listening to music</p>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                        <p><i class="fa fa-book" style="margin-right: 14px;"></i>Reading books, news</p>
+                                        </div>
+                                </div>
+                                
+                         
+                            
+                           
+                        </div>
+                        <hr>
+                        <h3 class="text-center" style="font-size: 25px;">TIMELINE</h3>
+                        <div class="timeline">
+                            <div class="tl-container left">
+                                <div class="tl-content">
+                                    <h4>July 28th,1998</h4>
+                                    <p>The day I was born.</p>
+                                </div>
+                            </div>
+                            <div class="tl-container right">
+                                <div class="tl-content">
+                                    <h4>2003-2009</h4>
+                                    <p>Studied at Vĩnh Xương primary and junior high school.</p>
+                                </div>
+                            </div>
+                            <div class="tl-container left">
+                                <div class="tl-content">
+                                    <h4>2012</h4>
+                                    <p>Studied at Vĩnh Xương high school.</p>
+                                </div>
+                            </div>
+                            <div class="tl-container right">
+                                <div class="tl-content">
+                                    <h4>2016-Now</h4>
+                                    <p>Study at Nong Lam University.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row f-s">
+
+                        <div class="col-md-12 col-sm-12">
+                            <div class="panel panel-default">
+
+                                <div class="panel-body">
+                                    <h4 class="td">NGHIÊN CỨU</h4>
+
+                                    <div class="col-md-3 col-sm-3">
+                                        <div class="panel panel-default">
+
+                                            <div class="panel-body">
+
+                                                <strong>0+ </strong> Clients
+
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-3 col-sm-3">
+                                        <div class="panel panel-default">
+
+                                            <div class="panel-body">
+
+                                                <strong>1+ </strong>Countries
+
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-3 col-sm-3">
+                                        <div class="panel panel-default">
+
+                                            <div class="panel-body">
+
+                                                <strong>0+ </strong> Projects
+
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-3 col-sm-3">
+                                        <div class="panel panel-default">
+
+                                            <div class="panel-body">
+
+                                                <strong>10+ </strong> Brands
+
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-4 col-sm-4">
+                            <div class="panel panel-default">
+
+                                <div class="panel-body">
+                                    <h4 class="td">HỌC VẤN</h4>
+                                    <p> <strong>*2016 - 2020 </strong> <br>
+                                        Học công nghệ thông tin tại Trường đại học Nông Lâm.
+                                    </p>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="panel panel-default">
+
+                                <div class="panel-body">
+                                    <h4 class="td">KINH NGHIỆM</h4>
+                                    <p>Chưa có kinh nghiệm trong các project thực tế, tuy nhiên trong quá trình học tập
+                                        cũng đã tạo ra nhiều project nho nhỏ.</p>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="panel panel-default">
+
+                                <div class="panel-body">
+                                    <h4 class="td">MỤC TIÊU NGHỀ NGHIỆP</h4>
+                                    <p>Mong muốn được làm việc trong lĩnh vực liên quan đến web, hoặc database, có
+                                        nguyện vọng được làm việc tại các nước châu Âu.</p>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </main>
+        <!-- Footer -->
+        <footer class="page-footer center-on-small-only">
+            <div class="container-fluid">
+                <div class="row row1">
+                    <div class="col-lg-2 ml-auto">
+                        <h5 class="title social-section-title">Social Media</h5>
+                        <div class="social-section text-md-left">
+                            <ul class="text-center">
+                                <li>
+                                    <a class="btn-floating  btn-fb waves-effect waves-light">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn-floating  btn-ins waves-effect waves-light">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn-floating  btn-tw waves-effect waves-light">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn-floating  btn-yt waves-effect waves-light">
+                                        <i class="fa fa-youtube"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn-floating  btn-li waves-effect waves-light">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn-floating  btn-dribbble waves-effect waves-light">
+                                        <i class="fa fa-dribbble left"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn-floating  btn-pin waves-effect waves-light">
+                                        <i class="fa fa-pinterest"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn-floating  btn-gplus waves-effect waves-light">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <h5 class="title">Menu</h5>
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="result.html">Result</a>
+                            </li>
+                            <li>
+                                <a href="lab1.html">Excercise</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h5 class="title">Information</h5>
+                        <ul>
+                            <li>
+                                <a>Name: Lê Thị Bé Thảo</a>
+                            </li>
+                            <li>
+                                <a>Email: thaovx1998@gmail.com</a>
+                            </li>
+                            <li>
+                                <a>Phone: 0966705381</a>
+                            </li>
+                            <li>
+                                <a>Job: student</a>
+                            </li>
+                        </ul>
+    
+                    </div>
+                    <div class="col-lg-5">
+                        <h5 class="title">Instagram Photos</h5>
+                        <ul class="instagram-photos">
+                            <li>
+                                <div class="view overlay hm-white-slight z-depth-1">
+                                    <img class="img-fluid" src="http://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg"
+                                        alt="" />
+                                    <a>
+                                        <div class="mask waves-light waves-effect waves-light"></div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="view overlay hm-white-slight z-depth-1">
+                                    <img class="img-fluid" src="http://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg"
+                                        alt="" />
+                                    <a>
+                                        <div class="mask waves-light waves-effect waves-light"></div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="view overlay hm-white-slight z-depth-1">
+                                    <img class="img-fluid" src="http://mdbootstrap.com/img/Photos/Avatars/img%20(19).jpg"
+                                        alt="" />
+                                    <a>
+                                        <div class="mask waves-light waves-effect waves-light"></div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="view overlay hm-white-slight z-depth-1">
+                                    <img class="img-fluid" src="http://mdbootstrap.com/img/Photos/Avatars/img%20(18).jpg"
+                                        alt="" />
+                                    <a>
+                                        <div class="mask waves-light waves-effect waves-light"></div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="view overlay hm-white-slight z-depth-1">
+                                    <img class="img-fluid" src="http://mdbootstrap.com/img/Photos/Avatars/img%20(15).jpg"
+                                        alt="" />
+                                    <a>
+                                        <div class="mask waves-light waves-effect waves-light"></div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="view overlay hm-white-slight z-depth-1">
+                                    <img class="img-fluid" src="http://mdbootstrap.com/img/Photos/Avatars/img%20(17).jpg"
+                                        alt="" />
+                                    <a>
+                                        <div class="mask waves-light waves-effect waves-light"></div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                    <div class="view overlay hm-white-slight z-depth-1">
+                                        <img class="img-fluid" src="http://mdbootstrap.com/img/Photos/Avatars/img%20(16).jpg"
+                                            alt="" />
+                                        <a>
+                                            <div class="mask waves-light waves-effect waves-light"></div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="view overlay hm-white-slight z-depth-1">
+                                        <img class="img-fluid" src="http://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg"
+                                            alt="" />
+                                        <a>
+                                            <div class="mask waves-light waves-effect waves-light"></div>
+                                        </a>
+                                    </div>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container-fluid">
+                    © 2018 Thao Le
+                    <a href="http://www.MDBootstrap.com"> CNTT - Nong Lam
+                        university </a>
+                </div>
+            </div>
+        </footer>
+    
+
+    </div>
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap dropdown -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Customizer -->
+    <script type="text/javascript" src="https://mdbootstrap.com/live/_MDB/js/customizer.min.js"></script>
+    <!-- Custom -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <!-- PRETTY PHOTO SCRIPT   -->
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script>
+            includeHTML();
+            </script>
+</body>
+
+</html>
